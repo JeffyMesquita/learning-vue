@@ -1,18 +1,13 @@
-<!-- Script -->
+<!-- SCRIPT -->
 <script setup>
-// Variables
-let nome = "Jeffy Mesquita";
-let idade = 37;
-let numero1 = 10;
-let numero2 = 20;
+// Importing components
+import Example1 from "./components/Example1Interpolation.vue";
 </script>
 
 <!-- HTML -->
 <template>
-  <p>
-    {{ "Hello, " + nome + " você tem " + idade + " anos." }}
-  </p>
-  <p>
-    {{ numero1 + numero2 }}
-  </p>
+  <div>
+    <h1>Example 1 - Interpolation</h1>
+    <Example1 />
+  </div>
 </template>
