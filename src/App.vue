@@ -2,6 +2,8 @@
 <script setup>
 // Importing components
 import Example1 from "./components/Example1Interpolation.vue";
+
+import Example2 from "./components/Example2Conditional.vue";
 </script>
 
 <!-- HTML -->
@@ -9,5 +11,10 @@ import Example1 from "./components/Example1Interpolation.vue";
   <div>
     <h1>Example 1 - Interpolation</h1>
     <Example1 />
+  </div>
+
+  <div>
+    <h1>Example 2 - Conditional</h1>
+    <Example2 />
   </div>
 </template>
