@@ -4,6 +4,9 @@
 import Example1 from "./components/Example1Interpolation.vue";
 
 import Example2 from "./components/Example2Conditional.vue";
+
+// Vector
+import Example3 from "./components/Example3Loop.vue";
 </script>
 
 <!-- HTML -->
@@ -16,5 +19,10 @@ import Example2 from "./components/Example2Conditional.vue";
   <div>
     <h1>Example 2 - Conditional</h1>
     <Example2 />
+  </div>
+
+  <div>
+    <h1>Example 3 - Loop</h1>
+    <Example3 />
   </div>
 </template>
